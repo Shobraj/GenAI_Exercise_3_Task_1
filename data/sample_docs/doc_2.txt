@@ -1,0 +1,2 @@
+Azure AI Search is a cloud search service that provides indexing and querying capabilities.
+It supports vector search for semantic similarity using embeddings.

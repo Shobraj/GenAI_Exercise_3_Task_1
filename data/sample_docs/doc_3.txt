@@ -1,0 +1,2 @@
+Retrieval-Augmented Generation (RAG) combines information retrieval with text generation.
+It improves LLM responses by grounding them in external knowledge sources.

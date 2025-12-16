@@ -1,0 +1,6 @@
+langchain
+langchain-community
+langchain-openai
+azure-search-documents
+python-dotenv
+pypdf
