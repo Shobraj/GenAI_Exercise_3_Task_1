@@ -1,5 +1,5 @@
 from langchain_openai import AzureOpenAIEmbeddings
-from config import (
+from src.config import (
     AZURE_OPENAI_API_KEY,
     AZURE_OPENAI_ENDPOINT,
     AZURE_OPENAI_EMBEDDING_DEPLOYMENT,

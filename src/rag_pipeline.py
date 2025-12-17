@@ -1,9 +1,10 @@
 from langchain_classic.chains import RetrievalQA
 from langchain_openai import AzureChatOpenAI
-from config import (
+from src.config import (
     AZURE_OPENAI_API_KEY,
     AZURE_OPENAI_ENDPOINT,
-    AZURE_OPENAI_CHAT_DEPLOYMENT
+    AZURE_OPENAI_CHAT_DEPLOYMENT,
+    OPENAI_API_VERSION
 )
 
 def build_rag_chain(vector_store):
@@ -11,7 +12,7 @@ def build_rag_chain(vector_store):
         api_key=AZURE_OPENAI_API_KEY,
         azure_endpoint=AZURE_OPENAI_ENDPOINT,
         azure_deployment=AZURE_OPENAI_CHAT_DEPLOYMENT,
-        api_version="2023-05-15",
+        api_version=OPENAI_API_VERSION,
         temperature=0
     )
 

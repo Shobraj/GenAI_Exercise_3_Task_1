@@ -1,10 +1,12 @@
 from langchain_community.vectorstores.azuresearch import AzureSearch
-from embedding import get_embedding_model
-from config import (
+from src.embedding import get_embedding_model
+from src.config import (
     AZURE_SEARCH_ENDPOINT,
     AZURE_SEARCH_KEY,
     AZURE_SEARCH_INDEX
 )
+
+var = AZURE_SEARCH_ENDPOINT
 
 def create_vector_store(documents):
     embedding_model = get_embedding_model()

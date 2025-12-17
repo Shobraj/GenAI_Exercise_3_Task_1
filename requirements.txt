@@ -4,3 +4,5 @@ langchain-openai
 azure-search-documents
 python-dotenv
 pypdf
+azure-identity
+azure-core

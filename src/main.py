@@ -1,6 +1,6 @@
-from document_loader import load_documents
-from vector_store import create_vector_store
-from rag_pipeline import build_rag_chain
+from src.document_loader import load_documents
+from src.vector_store import create_vector_store
+from src.rag_pipeline import build_rag_chain
 
 def main():
     print("Loading documents...")
